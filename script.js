@@ -1,0 +1,6 @@
+const button = document.querySelector("button");
+const message = document.querySelector("#message");
+
+button.addEventListener("click", function () {
+    message.textContent = "You clicked the button! 🎉";
+});
